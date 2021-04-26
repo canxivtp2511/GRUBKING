@@ -10,22 +10,29 @@
     <title>Food Shop</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
-    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/stylefood.css" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<!-- Css Styles -->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/flaticon.css" type="text/css">
+<link rel="stylesheet" href="css/barfiller.css" type="text/css">
+<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+<link rel="stylesheet" href="css/nice-select.css" type="text/css">
+<link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+<link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<!-- <link rel="stylesheet" href="css/style2.css" type="text/css"> -->
+<!-- Css thêm -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
+<!-- <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">  -->
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+<link href="lib/slick/slick.css" rel="stylesheet">
+<link href="lib/slick/slick-theme.css" rel="stylesheet">
 </head>
 
 <body>
@@ -34,26 +41,59 @@
         <div class="loader"></div>
     </div> -->
 
-    <!-- Offcanvas Menu Begin -->
-    <nav class="navbar">
-        <a href="index.html" class="navbar-brand">GrubKing</a>
-        <button type="button" class="navbar-toggler">
-            <img src="img/logo.png">
-        </button>
-        
-
-        <div class="cart">
-            <div class="ml-auto">
-                <a class="btn" href="shop.html"><i class="fa fa-shopping-basket"></i></a>
-            </div>
+    <!-- Header Section Begin -->
+    <header class="header">
+        <!-- Nav Bar Start -->
+        <div class="nav-bar">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+              <a href="#" class="navbar-brand"></a>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="mobilecart">
+                <div class="cart">
+                  <button type="button" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count-info"></span>
+                  </button>
+                  <div class="cart-container">
+                    <div class="cart-list">
+                    </div>
+                    <div class="cart-total">
+                      <h3 style="color: black;">Total: $</h3>
+                      <span id="cart-total-value"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav mr-auto">
+                  <div class="logo-food">
+                    <img src="img/logo.png">
+                  </div>
+                  <a href="index.html" class="nav-item nav-link active">HOME</a>
+                  <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                  <a href="shop.html" class="nav-item nav-link">SHOP</a>
+                  <!-- <a href="portfolio.html" class="nav-item nav-link">Project</a> -->
+    
+                  <a href="blog.html" class="nav-item nav-link">Blog</a>
+                  <a href="./contact.html" class="nav-item nav-link">Contact</a>
+                  <a href="register.html" class="nav-item nav-link"><i class="fas fa-user"></i> Login / <i
+                      class="fas fa-user-plus"></i>Resigter</a>
+                </div>
+                <div class="ml-auto">
+                  <a class="btn" href="search.html"><i class="fas fa-search"></i>Search Food</a>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
-    </nav>
-    <!-- Offcanvas Menu End -->
+        <!-- Nav Bar End -->
+      </header>
+    <!-- Header Section End -->
 
-    <br/>
-<br/>
-<br/>
-<br/>
+
 <!-- Breadcrumb Begin -->
     <div class="breadcrumb-option">
         <div class="container">
@@ -372,6 +412,78 @@
 <!-- Footer Section End -->
 
 <!-- Search Begin -->
+  <div class="container wow fadeInLeft" data-wow-delay="0.3s" style="display: none;">
+    <div id='nz-div'>
+      <h3 class="tde">
+        <span class="null">Search Food</span>
+
+      </h3>
+    </div>
+    <form role="form">
+      <div class="form-group">
+        <input type="input" class="form-control input-lg" id="txt-search" placeholder="Type your search character">
+      </div>
+    </form>
+    <div id="filter-records">
+      <div class="product-item">
+        <div class="product-img">
+          <div class="product-listall">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Search End -->
+
+  <!-- Product Section Begin -->
+  <section class="product2 spadd wow fadeInRight" data-wow-delay="0.3s" style="display: none;">
+    <div class="container ">
+      <div id='nz-div-4'>
+        <h3 class="tde ">
+          <span>Breakfast</span>
+        </h3>
+      </div>
+      <div class="product-list ">
+        <div class="row ">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="product2 spadd wow fadeInLeft" data-wow-delay="0.3s" style="display: none;">
+    <div class="container ">
+      <div id='nz-div-4'>
+        <h3 class="tde ">
+          <span>Lunch</span>
+        </h3>
+      </div>
+      <div class="product-list2 ">
+        <div class="row ">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="product2 spadd wow fadeInRight" data-wow-delay="0.3s" style="display: none;">
+    <div class="container ">
+      <div id='nz-div-4'>
+        <h3 class="tde ">
+          <span>Dinner</span>
+        </h3>
+      </div>
+      <div class="product-list3 ">
+        <div class="row ">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Product Section End -->
+
+<!-- Search Begin -->
 <div class="search-model">
     <div class="h-100 d-flex align-items-center justify-content-center">
         <div class="search-close-switch">+</div>
@@ -388,15 +500,28 @@
         });
     </script>
     <!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/jquery.barfiller.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/main.js"></script>
+<script src="js/jquery-3.3.1.min.js "></script>
+<script src="js/bootstrap.min.js "></script>
+<script src="js/jquery.nice-select.min.js "></script>
+<script src="js/jquery.barfiller.js "></script>
+<script src="js/jquery.magnific-popup.min.js "></script>
+<script src="js/jquery.slicknav.js "></script>
+<script src="js/owl.carousel.min.js "></script>
+<script src="js/jquery.nicescroll.min.js "></script>
+<script src="js/main.js "></script>
+<!-- JavaScript Libraries -->
+<script src="lib/easing/easing.min.js "></script>
+<script src="lib/wow/wow.min.js "></script>
+<script src="lib/owlcarousel/owl.carousel.min.js "></script>
+<script src="lib/isotope/isotope.pkgd.min.js "></script>
+<script src="lib/lightbox/js/lightbox.min.js "></script>
+<script src="lib/waypoints/waypoints.min.js "></script>
+<script src="lib/counterup/counterup.min.js "></script>
+<script src="lib/slick/slick.min.js "></script>
+<!-- Template Javascript -->
+<script src="https://caythue247.com/js/main.js "></script>
+<script src="js/app.js "></script>
+<script src="js/search.js "></script>
 </body>
 
 </html>
