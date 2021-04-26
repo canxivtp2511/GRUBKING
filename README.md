@@ -28,4 +28,8 @@ TechWiz documentation at https://github.com/canxivtp2511/GRUBKING/tree/main/revi
 
 ============================
 
+TechWiz backup link hostting at https://caythue247.com/GRUBKING/index.html
+
+============================
+
 Thank you for taking the time to watch my group 
