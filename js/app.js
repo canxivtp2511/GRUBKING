@@ -8,8 +8,8 @@ const productListall = document.querySelector('.product-listall');
 const cartList = document.querySelector('.cart-list');
 const cartTotalValue = document.getElementById('cart-total-value');
 const cartCountInfo = document.getElementById('cart-count-info');
-let cartItemID = 1;
 
+let cartItemID = 1;
 eventListeners();
 
 // all event listeners
@@ -59,7 +59,6 @@ function loadJSON() {
             let html = '';
             data.forEach(product => {
                 html += `
-            
                 <div class = "product-item">
                     <div class = "product-img">
                         <img src = "${product.imgSrc}" alt = "product image">
@@ -77,7 +76,7 @@ function loadJSON() {
                     </div>
                 </div>
         `;
-            });
+        });
             productList.innerHTML = html;
         })
         fetch('js/furniture2.json')
@@ -171,6 +170,7 @@ function purchaseProduct(e) {
         let product = e.target.parentElement.parentElement;
         getProductInfo(product);
     }
+    
 }
 
 // get product info after add to cart button click
@@ -181,7 +181,8 @@ function getProductInfo(product) {
         name: product.querySelector('.product-name').textContent,
         category: product.querySelector('.product-category').textContent,
         price: product.querySelector('.product-price').textContent,
-        link: product.querySelector('.product-link').textContent
+        link: product.querySelector('.product-link').textContent,
+        ms: product.querySelector('.product-ms').textContent,
     }
     cartItemID++;
     addToCartList(productInfo);
@@ -194,18 +195,17 @@ function addToCartList(product) {
     cartItem.classList.add('cart-item');
     cartItem.setAttribute('data-id', `${product.id}`);
     cartItem.innerHTML = `
-        <img src = "${product.imgSrc}" alt = "product image">
-        <div class = "cart-item-info">
-            <h3 class = "cart-item-name">${product.name}</h3>
-            <span class = "cart-item-category">${product.category}</span>
-            <span class = "cart-item-price">${product.price}</span>
-
-        </div>
-
-        <button type = "button" class = "cart-item-del-btn">
-        <i class="fas fa-times-circle"></i>
-        </button>
-    `;
+                <img src = "${product.imgSrc}" alt = "product image">
+                <div class = "cart-item-info">
+                    <h3 class = "cart-item-name">${product.name}</h3>
+                    <span class = "cart-item-category">${product.category}</span>
+                    <span class = "cart-item-price">${product.price}</span>
+                </div>
+        
+                <button type = "button" class = "cart-item-del-btn">
+                <i class="fas fa-times-circle"></i>
+                </button>
+            `;
     cartList.appendChild(cartItem);
 }
 

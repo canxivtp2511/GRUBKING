@@ -4,27 +4,31 @@
         "category" : "17:30 - 23:00 PM",
         "price" : "49.00",
         "imgSrc" : "img/instagram/gasotcay.jpg",
-        "link" : "gasotcay.html"
+        "link" : "gasotcay.html",
+        "ms": "a"
     },
     {
         "name" : "BO BIT TET",
         "category" : "17:30 - 23:00 PM",
         "price" : "60.99",
         "imgSrc" : "img/instagram/bobittet.jpg",
-        "link" : "bobittet.html"
+        "link" : "bobittet.html",
+        "ms": "a"
     },
     {
         "name" : "SPAGHETTI",
         "category" : "17:30 - 23:00 PM",
         "price" : "69.20",
         "imgSrc" : "img/instagram/spaghetti.jpg",
-        "link" : "spaghetti.html"
+        "link" : "spaghetti.html",
+        "ms": "a"
     },
     {
         "name" : "PIZZA",
         "category" : "17:30 - 23:00 PM",
         "price" : "224.99",
         "imgSrc" : "img/instagram/pizza.jpg",
-        "link" : "pizza.html"
+        "link" : "pizza.html",
+        "ms": "a"
     }
 ]

@@ -247,12 +247,71 @@ var movies = [
     "runtime": 8,
     "genre": [
       "DINNER",
-      "DINNER",
-      "Indiafood"
+      "DINNER"
     ],
     "certificate": "PG",
     "date": "1993-02-18T10:29:29+05:30",
     "actor": "Mark Hamill",
     "id": 12
+  },
+  {
+    "name": 'Murgh Makhani<br/><i class="fas fa-shopping-cart" style="color: black;"></i><a href="shop.html" style="color: black;">Updating..</a>',
+    "outline": "Updating...",
+    "rating": 9.8,
+    "director": "$1.21",
+    "year": '<img src="img/instagram/bc.jpg" style="height: 100%; width: 100%;">',
+    "stars": [
+      "Món mặn",
+      "Món sáng",
+      "chưa biết"
+    ],
+    "runtime": 10,
+    "genre": [
+      "Indiafood"
+    ],
+    "certificate": "PG",
+    "date": "1993-02-18T10:29:29+05:30",
+    "actor": "Mark Hamill",
+    "id": 13
+  },
+  {
+    "name": 'Papdi Chaat<br/><i class="fas fa-shopping-cart" style="color: black;"></i><a href="shop.html" style="color: black;">Updating..</a>',
+    "outline": "Updating...",
+    "rating": 9.5,
+    "director": "$1.21",
+    "year": '<img src="img/instagram/padichat.jpg" style="height: 100%; width: 100%;">',
+    "stars": [
+      "Món mặn",
+      "Món sáng",
+      "chưa biết"
+    ],
+    "runtime": 10,
+    "genre": [
+      "Indiafood"
+    ],
+    "certificate": "PG",
+    "date": "1993-02-18T10:29:29+05:30",
+    "actor": "Mark Hamill",
+    "id": 14
+  },
+  {
+    "name": 'Instant Pot Butter Chicken<br/><i class="fas fa-shopping-cart" style="color: black;"></i><a href="shop.html" style="color: black;">Updating..</a>',
+    "outline": "Updating..",
+    "rating": 10,
+    "director": "$1.21",
+    "year": '<img src="img/instagram/cariga.jpg" style="height: 100%; width: 100%;">',
+    "stars": [
+      "Món mặn",
+      "Món sáng",
+      "chưa biết"
+    ],
+    "runtime": 9,
+    "genre": [
+      "Indiafood"
+    ],
+    "certificate": "PG",
+    "date": "1993-02-18T10:29:29+05:30",
+    "actor": "Mark Hamill",
+    "id": 15
   }
 ]
