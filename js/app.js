@@ -182,7 +182,6 @@ function getProductInfo(product) {
         category: product.querySelector('.product-category').textContent,
         price: product.querySelector('.product-price').textContent,
         link: product.querySelector('.product-link').textContent,
-        ms: product.querySelector('.product-ms').textContent,
     }
     cartItemID++;
     addToCartList(productInfo);
