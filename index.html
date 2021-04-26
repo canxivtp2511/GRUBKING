@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cake Template">
+    <meta name="keywords" content="Cake, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Shop</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/style2.css" type="text/css"> -->
+    <!-- Css thêm -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
+    <!-- <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">  -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- Header Section Begin -->
+    <header class="header">
+        <!-- Nav Bar Start -->
+        <div class="nav-bar">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">MENU</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto">
+                            <div class="logo-food">
+                                <img src="img/logo.png">
+                            </div>
+                            <a href="index.html" class="nav-item nav-link active">HOME</a>
+                            <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                            <a href="shop.html" class="nav-item nav-link">SHOP</a>
+                            <!-- <a href="portfolio.html" class="nav-item nav-link">Project</a> -->
+                            
+                            <a href="contact.html" class="nav-item nav-link">Blog</a>
+                            <a href="account.html" class="nav-item nav-link"><i class="fas fa-user"></i> Login / <i class="fas fa-user-plus"></i>Resigter</a>
+                        </div>
+                        <div class="ml-auto">
+                            <a class="btn" href="./contact.html">Contact</a>
+                        </div>
+                        <div class="cart">
+                            <button type="button" id="cart-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span id="cart-count-info"></span>
+                            </button>
+                            <div class="cart-container">
+                                <div class="cart-list">
+
+                                </div>
+
+                                <div class="cart-total">
+                                    <h3 style="color: black;">Total: $</h3>
+                                    <span id="cart-total-value"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+    </header>
+    <!-- Header Section End -->
+
+    <!-- slide show -->
+    <section class="hero" data-wow-delay="1.3s">
+        <div class="hero__slider owl-carousel">
+            <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
+                <div class="container">
+                    <!-- <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="hero__text">
+                                <a href="google.com" class="primary-btn">Shop Food</a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="hero__item set-bg" data-setbg="img/hero/hero-2.jpg">
+                <div class="container">
+                    <!-- <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="hero__text">
+                                <a href="google.com" class="primary-btn">Shop Food</a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="hero__item set-bg" data-setbg="img/hero/hero-3.jpg">
+                <div class="container">
+                    <!-- <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="hero__text">
+                                
+                                <a href="google.com" class="primary-btn">Shop Food</a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slide show End -->
+
+    <!-- About Section Begin -->
+    <section class="about spad" data-wow-delay="1.3s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="about__text">
+                        <div class="section-title">
+                            <span>About Food shop</span>
+                            <h2>Survey about daily food choices !</h2>
+                        </div>
+                        <p>To serve time for customers who have little time to prepare meals every day and realize how tired clients are having to do their job while preparing meals. FPT-APTECH student group provides a time solution to help you save your
+                            time. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="about__bar">
+                        <div class="about__bar__item">
+                            <p>Prepare meals</p>
+                            <div id="bar1" class="barfiller">
+                                <div class="tipWrap"><span class="tip"></span></div>
+                                <span class="fill" data-percentage="45"></span>
+                            </div>
+                        </div>
+                        <div class="about__bar__item">
+                            <p>Order food </p>
+                            <div id="bar2" class="barfiller">
+                                <div class="tipWrap"><span class="tip"></span></div>
+                                <span class="fill" data-percentage="90  "></span>
+                            </div>
+                        </div>
+                        <div class="about__bar__item">
+                            <p>Canned food </p>
+                            <div id="bar3" class="barfiller">
+                                <div class="tipWrap"><span class="tip"></span></div>
+                                <span class="fill" data-percentage="50"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Categories Section Begin -->
+    <div class="categories" data-wow-delay="1.3s">
+        <div class="container">
+            <div id='nz-div'>
+                <h3 class="tde">
+                    <span class="null">FOOD WITH HIGH SALES</span>
+                </h3>
+            </div>
+            <div class="row">
+                <div class="categories__slider owl-carousel">
+                    <div class="categories__item">
+                        <div class="categories__item__icon">
+                            <!-- <span class="flaticon-029-cupcake-3"></span> -->
+                            <a href="burger.html"> <img src="img/topfood/hamburger.jpg" alt="SEOO" style="margin-top: 4px;"></a>
+                            <h5>Cupcake</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item">
+                        <div class="categories__item__icon">
+                            <a href="banhmi.html"><img src="img/topfood/banhmithit.jpg " alt="SEOO " style="margin-top: 4px; "></a>
+                            <h5>Bánh Mì Thịt</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item ">
+                        <div class="categories__item__icon ">
+                            <a href="bundau.html "> <img src="img/topfood/bundau.jpg " alt="SEOO " style="margin-top: 4px; "></a>
+                            <h5>Bún Đậu</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item ">
+                        <div class="categories__item__icon ">
+                            <a href="miquang.html "> <img src="img/topfood/miquang.jpg " alt="SEOO " style="margin-top: 4px; "></a>
+                            <h5>Mì Quảng</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item ">
+                        <div class="categories__item__icon ">
+                            <a href="banhcuon.html "> <img src="img/topfood/banhcuon.jpg " alt="SEOO " style="margin-top: 4px; "></a>
+                            <h5>Bánh Cuốn</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item ">
+                        <div class="categories__item__icon ">
+                            <a href="bokho.html "><img src="img/topfood/bokho.jpg " alt="SEOO " style="margin-top: 4px; "></a>
+                            <h5>Bò Kho</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="# " class="back-to-top "><i class="fa fa-chevron-up "></i></a>
+    </div>
+    <!-- Categories Section End -->
+
+    <!-- Search Begin -->
+    <div class="container">
+        <div id='nz-div'>
+            <h3 class="tde">
+                <span class="null">Search Food</span>
+
+            </h3>
+        </div>
+        <form role="form">
+            <div class="form-group">
+                <input type="input" class="form-control input-lg" id="txt-search"
+                    placeholder="Type your search character">
+            </div>
+        </form>
+        <div id="filter-records">
+            <div class="product-item">
+                <div class="product-img">
+                    <div class="product-listall">
+                        <div class="row">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search End -->
+
+    <!-- Product Section Begin -->
+    <section class="product2 spadd " data-wow-delay="1.3s ">
+        <div class="container ">
+            <div id='nz-div-4'>
+                <h3 class="tde ">
+                    <span>Breakfast</span>
+                </h3>
+            </div>
+            <div class="product-list ">
+                <div class="row ">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="product2 spadd " data-wow-delay="1.3s ">
+        <div class="container ">
+            <div id='nz-div-4'>
+                <h3 class="tde ">
+                    <span>Lunch</span>
+                </h3>
+            </div>
+            <div class="product-list2 ">
+                <div class="row ">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="product2 spadd " data-wow-delay="1.3s ">
+        <div class="container ">
+            <div id='nz-div-4'>
+                <h3 class="tde ">
+                    <span>Dinner</span>
+                </h3>
+            </div>
+            <div class="product-list3 ">
+                <div class="row ">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Class Section Begin -->
+    <section class="class spad ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-6 ">
+                    <div class="class__form ">
+                        <div class="section-title ">
+                            <span>Evaluate Us</span>
+                            <h2>You can type some reviews for us</h2>
+                        </div>
+                        <form action="index.html" method="post" id="myform">
+                            <input type="text " placeholder="Name " required>
+                            <input type="text " placeholder="Phone " required>
+                            <select>
+                                <option value=" ">Breakfast</option>
+                                <option value=" ">Lunch</option>
+                                <option value=" ">Dinner</option>
+                            </select>
+                            <input type="text " placeholder="Type your comments " required>
+                            <button type="submit " class="site-btn ">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="class__video set-bg " data-setbg="img/class-video.jpg ">
+                <div class="video wow fadeIn" data-wow-delay="0.1s">
+                <div class="container">
+                    <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/-n5ohkqQBSA" data-target="#videoModal">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Class Section End -->
+
+    <!-- Team Section Begin -->
+    <section class="team spad ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-7 col-md-7 col-sm-7 ">
+                    <div class="section-title ">
+                        <span>Our team</span>
+                        <h2>T1.2011.M0</h2>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 ">
+                    <div class="team__btn ">
+                        <a href="https://www.facebook.com/canxivtp/" class="primary-btn ">Join Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                    <div class="team__item set-bg " data-setbg="img/team/Phong.jpg ">
+                        <div class="team__item__text ">
+                            <h6>Vu Trong Phong</h6>
+                            <span>Decorater</span>
+                            <div class="team__item__social ">
+                                <a href="https://www.facebook.com/canxivtp" target="_blank"><i class="fa fa-facebook "></i></a>
+                                <a href="https://www.facebook.com/canxivtp" target="_blank"><i class="fa fa-twitter "></i></a>
+                                <a href="https://www.facebook.com/canxivtp" target="_blank"><i class="fa fa-instagram "></i></a>
+                                <a href="https://www.facebook.com/canxivtp" target="_blank"><i class="fa fa-youtube-play "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                    <div class="team__item set-bg " data-setbg="img/team/Tam.jpg ">
+                        <div class="team__item__text ">
+                            <h6>Le Ngan Tam</h6>
+                            <span>Designer</span>
+                            <div class="team__item__social ">
+                                <a href="https://www.facebook.com/ngan.tam.188478" target="_blank"><i class="fa fa-facebook "></i></a>
+                                <a href="https://www.facebook.com/ngan.tam.188478" target="_blank"><i class="fa fa-twitter "></i></a>
+                                <a href="https://www.facebook.com/ngan.tam.188478" target="_blank"><i class="fa fa-instagram "></i></a>
+                                <a href="https://www.facebook.com/ngan.tam.188478" target="_blank"><i class="fa fa-youtube-play "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                    <div class="team__item set-bg " data-setbg="img/team/Long.jpg ">
+                        <div class="team__item__text ">
+                            <h6>Pham Thien Long</h6>
+                            <span>Content Creator</span>
+                            <div class="team__item__social ">
+                                <a href="https://www.facebook.com/Royy902/" target="_blank"><i class="fa fa-facebook "></i></a>
+                                <a href="https://www.facebook.com/Royy902/" target="_blank"><i class="fa fa-twitter "></i></a>
+                                <a href="https://www.facebook.com/Royy902/" target="_blank"><i class="fa fa-instagram "></i></a>
+                                <a href="https://www.facebook.com/Royy902/" target="_blank"><i class="fa fa-youtube-play "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                    <div class="team__item set-bg " data-setbg="img/team/Hoang.jpg ">
+                        <div class="team__item__text ">
+                            <h6>Do Huy Hoang</h6>
+                            <span>Member</span>
+                            <div class="team__item__social ">
+                                <a href="https://www.facebook.com/profile.php?id=100008526974050" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100008526974050" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100008526974050" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100008526974050" target="_blank"><i class="fa fa-youtube-play "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                    <div class="team__item set-bg " data-setbg="img/team/Nam.jpg ">
+                        <div class="team__item__text ">
+                            <h6>Do Thanh Nam</h6>
+                            <span>Member</span>
+                            <div class="team__item__social ">
+                                <a href="https://www.facebook.com/nobita.nam.9277" target="_blank"><i class="fa fa-facebook "></i></a>
+                                <a href="https://www.facebook.com/nobita.nam.9277" target="_blank"><i class="fa fa-twitter "></i></a>
+                                <a href="https://www.facebook.com/nobita.nam.9277" target="_blank"><i class="fa fa-instagram "></i></a>
+                                <a href="https://www.facebook.com/nobita.nam.9277" target="_blank"><i class="fa fa-youtube-play "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                    <div class="team__item set-bg " data-setbg="img/team/Minh.jpg ">
+                        <div class="team__item__text ">
+                            <h6>Nguyen Hoang Minh</h6>
+                            <span>Member</span>
+                            <div class="team__item__social ">
+                                <a href="https://www.facebook.com/profile.php?id=100024830823519" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100024830823519" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100024830823519" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100024830823519" target="_blank"><i class="fa fa-youtube-play "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial spad ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-12 text-center ">
+                    <div class="section-title ">
+                        <span>Testimonial</span>
+                        <h2>Our client say</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="testimonial__slider owl-carousel ">
+                    <div class="col-lg-6 ">
+                        <div class="testimonial__item ">
+                            <div class="testimonial__author ">
+                                <div class="testimonial__author__pic ">
+                                    <img src="img/testimonial/hinhdanhgia.jpg " alt=" ">
+                                </div>
+                                <div class="testimonial__author__text ">
+                                    <h5>NGUYEN THI NHU</h5>
+                                    <span>VietNam</span>
+                                </div>
+                            </div>
+                            <div class="rating ">
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star-half_alt "></span>
+                            </div>
+                            <p>I used seasoning saltn and used the extra butter mixture on red potatoes cut into bite size pieces. I was delicious. Will be making it again.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="testimonial__item ">
+                            <div class="testimonial__author ">
+                                <div class="testimonial__author__pic ">
+                                    <img src="img/testimonial/ta-2.jpg " alt=" ">
+                                </div>
+                                <div class="testimonial__author__text ">
+                                    <h5>Kerenza </h5>
+                                    <span>Pari</span>
+                                </div>
+                            </div>
+                            <div class="rating ">
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star-half_alt "></span>
+                            </div>
+                            <p>Tasted great! I actually replaced the salt with Adobo. (My Husband & I are Puergo Rican) so I used the spanish seasoning instead. But other than that.. Very simple & tasted great. Was not dry either!!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="testimonial__item ">
+                            <div class="testimonial__author ">
+                                <div class="testimonial__author__pic ">
+                                    <img src="img/testimonial/ta-1.jpg " alt=" ">
+                                </div>
+                                <div class="testimonial__author__text ">
+                                    <h5>ชื่อ จริง </h5>
+                                    <span>ThaiLand</span>
+                                </div>
+                            </div>
+                            <div class="rating ">
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star-half_alt "></span>
+                            </div>
+                            <p>I don't particularly care for breast meat because of how dry it is but this was the moistest I have ever had. I will definitely make this more often. The bonus is that it is SO simple.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="testimonial__item ">
+                            <div class="testimonial__author ">
+                                <div class="testimonial__author__pic ">
+                                    <img src="img/testimonial/hinhdanhgia1.jpg " alt=" ">
+                                </div>
+                                <div class="testimonial__author__text ">
+                                    <h5>Yuuki</h5>
+                                    <span>Japan</span>
+                                </div>
+                            </div>
+                            <div class="rating ">
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star-half_alt "></span>
+                            </div>
+                            <p>Excellent as is but I tried adding a sprinkle of paprika after coating with the butter and salt mixture. It was even better...AND gave the chicken an appetizing color.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="testimonial__item ">
+                            <div class="testimonial__author ">
+                                <div class="testimonial__author__pic ">
+                                    <img src="img/testimonial/hinhdanhgia2.jpg " alt=" ">
+                                </div>
+                                <div class="testimonial__author__text ">
+                                    <h5>Alida</h5>
+                                    <span>London</span>
+                                </div>
+                            </div>
+                            <div class="rating ">
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star-half_alt "></span>
+                            </div>
+                            <p>Super tender and delicious. Added pepper and garlic powder otherwise no changes. Served with rice pilaf and broccoli.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="testimonial__item ">
+                            <div class="testimonial__author ">
+                                <div class="testimonial__author__pic ">
+                                    <img src="img/testimonial/hinhdanhgia3.jpg " alt=" ">
+                                </div>
+                                <div class="testimonial__author__text ">
+                                    <h5>Yashashree</h5>
+                                    <span>EngLand</span>
+                                </div>
+                            </div>
+                            <div class="rating ">
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star "></span>
+                                <span class="icon_star-half_alt "></span>
+                            </div>
+                            <p>If youre looking for some simple and versatile this is it!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Instagram Section Begin -->
+    <section class="instagram spad ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-4 p-0 ">
+                    <div class="instagram__text ">
+                        <div class="section-title ">
+                            <span>Follow us on instagram</span>
+                            <h2>Let's take a look at the specialties in Vietnam .</h2>
+                        </div>
+                        <h5><i class="fa fa-instagram "></i> @FPT-APTECH</h5>
+                    </div>
+                </div>
+                <div class="col-lg-8 ">
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6 ">
+                            <div class="instagram__pic ">
+                                <img src="img/instagram/bunthitnuong.jpg " alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6 ">
+                            <div class="instagram__pic middle__pic ">
+                                <img src="img/instagram/comgaxoimo.jpg " alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6 ">
+                            <div class="instagram__pic ">
+                                <img src="img/instagram/banhmithit.jpg " alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6 ">
+                            <div class="instagram__pic ">
+                                <img src="img/instagram/phobo.jpg " alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6 ">
+                            <div class="instagram__pic middle__pic ">
+                                <img src="img/instagram/xoi.jpg " alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6 ">
+                            <div class="instagram__pic ">
+                                <img src="img/instagram/bundau.jpg " alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Instagram Section End -->
+
+    <!-- Map Begin -->
+    <div class="map ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-4 col-md-7 ">
+                    <div class="map__inner ">
+                        <h6>FPT-Aptech Computer Education HCM</h6>
+                        <ul>
+                            <li>590 Cách Mạng Tháng Tám, Phường 11, Quận 3, Thành phố Hồ Chí Minh 723564, Việt Nam</li>
+                            <li>http://fpt.aptech.edu.vn/</li>
+                            <li>+842838460846</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map__iframe ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3193500366883!2d106.66408561472623!3d10.786834792314432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2392c44df%3A0xd2ecb62e0d050fe9!2sFPT-Aptech%20Computer%20Education%20HCM!5e0!3m2!1svi!2s!4v1619243589699!5m2!1svi!2s "
+                height="300 " style="border:0; " allowfullscreen=" " aria-hidden="false " tabindex="0 "></iframe>
+        </div>
+    </div>
+    <!-- Map End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer set-bg " data-setbg="img/footer-bg.jpg ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-4 ">
+                    <div class="footer__widget ">
+                        <h6>WORKING HOURS</h6>
+                        <ul>
+                            <li>Monday - Friday: 08:00 am – 08:30 pm</li>
+                            <li>Saturday: 10:00 am – 16:30 pm</li>
+                            <li>Sunday: 10:00 am – 16:30 pm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="footer__about ">
+                        <div class="footer__logo">
+                            <h6>About US</h6>
+                        </div>
+                        <p>Website is made for the purpose of serving people who have little time to prepare their own meals. Website designed by FPT student group - APTECH - HCM Teacher: @Tainp Class: @ T1.2011.M0.</p>
+                        <div class="footer__social ">
+                            <a href="# "><i class="fa fa-facebook "></i></a>
+                            <a href="# "><i class="fa fa-twitter "></i></a>
+                            <a href="# "><i class="fa fa-instagram "></i></a>
+                            <a href="# "><i class="fa fa-youtube-play "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="footer__newslatter ">
+                        <h6>Subscribe</h6>
+                        <p>Get latest updates and offers.</p>
+                        <form form action="index.html" method="post" id="Subscribe">
+                            <input type="email " placeholder="Email " required>
+                            <button type="submit "><i class="fa fa-send-o "></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model ">
+        <div class="h-100 d-flex align-items-center justify-content-center ">
+            <div class="search-close-switch ">+</div>
+            <form class="search-model-form ">
+                <input type="text " id="search-input " placeholder="Search here..... ">
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+    <script>
+        document.getElementById('myform').addEventListener('submit', function(){
+            alert('Thank you for contacting us! ');
+        });
+    </script>
+    <script>
+        document.getElementById('Subscribe').addEventListener('submit', function(){
+            alert('Thank you for Subscribe! ');
+        });
+    </script>
+    <script>
+        document.getElementById('Subscribe').addEventListener('submit', function(){
+            alert('Thank you for Subscribe! ');
+        });
+    </script>
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/jquery.nice-select.min.js "></script>
+    <script src="js/jquery.barfiller.js "></script>
+    <script src="js/jquery.magnific-popup.min.js "></script>
+    <script src="js/jquery.slicknav.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="js/jquery.nicescroll.min.js "></script>
+    <script src="js/main.js "></script>
+    <!-- JavaScript Libraries -->
+    <script src="lib/easing/easing.min.js "></script>
+    <script src="lib/wow/wow.min.js "></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js "></script>
+    <script src="lib/isotope/isotope.pkgd.min.js "></script>
+    <script src="lib/lightbox/js/lightbox.min.js "></script>
+    <script src="lib/waypoints/waypoints.min.js "></script>
+    <script src="lib/counterup/counterup.min.js "></script>
+    <script src="lib/slick/slick.min.js "></script>
+    <!-- Template Javascript -->
+    <script src="https://caythue247.com/js/main.js "></script>
+    <script src="js/app.js "></script>
+    <script src="js/search.js "></script>
+</body>
+
+</html>
