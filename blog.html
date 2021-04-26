@@ -9,10 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Food Shop</title>
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/flaticon.css" type="text/css">
@@ -23,7 +22,16 @@
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/stylefood.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/style2.css" type="text/css"> -->
+    <!-- Css thêm -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
+    <!-- <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">  -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,25 +40,71 @@
         <div class="loader"></div>
     </div> -->
 
-    <!-- Offcanvas Menu Begin -->
-    <nav class="navbar">
-        <a href="index.html" class="navbar-brand">GrubKing</a>
-        <button type="button" class="navbar-toggler">
-            <img src="img/logo.png">
-        </button>
-        
-
-        <div class="cart">
-            <div class="ml-auto">
-                <a class="btn" href="shop.html"><i class="fa fa-shopping-basket"></i></a>
-            </div>
+    <!-- Header Section Begin -->
+    <header class="header">
+        <!-- Nav Bar Start -->
+        <div class="nav-bar">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+              <a href="#" class="navbar-brand"></a>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="mobilecart">
+                <div class="cart">
+                  <button type="button" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count-info"></span>
+                  </button>
+                  <div class="cart-container">
+                    <div class="cart-list">
+                    </div>
+                    <div class="cart-total">
+                      <h3 style="color: black;">Total: $</h3>
+                      <span id="cart-total-value"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav mr-auto">
+                  <div class="logo-food">
+                    <img src="img/logo.png">
+                  </div>
+                  <a href="index.html" class="nav-item nav-link active">HOME</a>
+                  <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                  <a href="shop.html" class="nav-item nav-link">SHOP</a>
+                  <!-- <a href="portfolio.html" class="nav-item nav-link">Project</a> -->
+    
+                  <a href="blog.html" class="nav-item nav-link">Blog</a>
+                  <a href="./contact.html" class="nav-item nav-link">Contact</a>
+                  <a href="register.html" class="nav-item nav-link"><i class="fas fa-user"></i> Login / <i
+                      class="fas fa-user-plus"></i>Resigter</a>
+                </div>
+                <div class="ml-auto">
+                  <a class="btn" href="search.html"><i class="fas fa-search"></i>Search Food</a>
+                </div>
+                <!-- <div class="cart">
+                  <button type="button" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count-info"></span>
+                  </button>
+                  <div class="cart-container">
+                    <div class="cart-list">
+                    </div>
+                    <div class="cart-total">
+                      <h3 style="color: black;">Total: $</h3>
+                      <span id="cart-total-value"></span>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </nav>
+          </div>
         </div>
-    </nav>
-    <!-- Offcanvas Menu End -->
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+        <!-- Nav Bar End -->
+      </header>
+    <!-- Header Section End -->
 <!-- Breadcrumb Begin -->
     <div class="breadcrumb-option">
         <div class="container">
@@ -76,7 +130,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="blog__item">
+                    <div class="blog__item wow fadeInRight" data-wow-delay="0.2">
                         <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-1.jpg">
                             <div class="blog__pic__inner">
                                 <div class="label">Recipes</div>
@@ -93,7 +147,7 @@
                             <a href="#">READ MORE</a>
                         </div>
                     </div>
-                    <div class="blog__item">
+                    <div class="blog__item wow fadeInRight" data-wow-delay="0.2">
                         <div class="blog__item__pic set-bg" data-setbg="https://cdn.jamja.vn/blog/wp-content/uploads/2017/09/tom-nuong-uop-muoi-ot121.jpg">
                             <div class="blog__pic__inner">
                                 <div class="label">Recipes</div>
@@ -110,7 +164,7 @@
                             <a href="#">READ MORE</a>
                         </div>
                     </div>
-                    <div class="blog__item">
+                    <div class="blog__item wow fadeInRight" data-wow-delay="0.2">
                         <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-3.jpg">
                             <div class="blog__pic__inner">
                                 <div class="label">Recipes</div>
@@ -121,13 +175,13 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="blog__item__text">
+                        <div class="blog__item__text wow fadeInRight" data-wow-delay="0.2">
                             <h2>Seafood dishes help gentlemen healthier</h2>
                             <p>Blood cockles, oysters or sea urchins are all popular foods with blood tonic effects, and are favored by men and women...</p>
                             <a href="#">READ MORE</a>
                         </div>
                     </div>
-                    <div class="blog__item">
+                    <div class="blog__item wow fadeInRight" data-wow-delay="0.2">
                         <div class="blog__item__pic set-bg" data-setbg="https://bokhocomai.com/wp-content/uploads/2019/07/If-you-love-beef-stew-you-definitely-need-to-check-out-this-Bo-Kho-recipe-this-Vietnamese-beef-stew-has-all-the-flavors-of-a-traditional-beef-stew-with-additional-aro-2-1024x702.jpeg">
                             <div class="blog__pic__inner">
                                 <div class="label">Recipes</div>
@@ -138,13 +192,13 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="blog__item__text">
+                        <div class="blog__item__text wow fadeInRight" data-wow-delay="0.2">
                             <h2>Overview of Vietnamese culinary culture through 9 features</h2>
                             <p>In Vietnamese culinary culture, there are many different ways of processing, performing and expressing, which can be generalized into the following 9 characteristics...</p>
                             <a href="#">READ MORE</a>
                         </div>
                     </div>
-                    <div class="shop__pagination">
+                    <div class="shop__pagination wow fadeInRight" data-wow-delay="0.2">
                         <a href="#">1</a>
                         <a href="#">2</a>
                         <a href="#">3</a>
@@ -152,14 +206,14 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="blog__sidebar">
+                    <div class="blog__sidebar wow fadeInUp" data-wow-delay="0.2">
                         <div class="blog__sidebar__search">
                             <form action="#">
                                 <input type="text" placeholder="Enter keyword">
                                 <button type="submit"><i class="fa fa-search"></i></button>
                             </form>
                         </div>
-                        <div class="blog__sidebar__item">
+                        <div class="blog__sidebar__item wow fadeInUp" data-wow-delay="0.2">
                             <h5>Follow me</h5>
                             <div class="blog__sidebar__social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -168,10 +222,10 @@
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="blog__sidebar__item">
+                        <div class="blog__sidebar__item wow fadeInUp" data-wow-delay="0.2">
                             <h5>Popular posts</h5>
 
-                            <div class="blog__sidebar__recent">
+                            <div class="blog__sidebar__recent  wow fadeInUp" data-wow-delay="0.2">
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
                                         <img src="img/blog/br-1.jpg" width="100" alt="">
@@ -219,7 +273,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="blog__sidebar__item">
+                        <div class="blog__sidebar__item  wow fadeInUp" data-wow-delay="0.2">
                             <h5>Categories</h5>
                             <div class="blog__sidebar__item__categories">
                                 <ul>
@@ -231,10 +285,10 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="blog__sidebar__item">
+                        <div class="blog__sidebar__item  wow fadeInUp" data-wow-delay="0.2">
                             <h5>NEWsLETTeR</h5>
                             <p>Subscribe to our newsletter and get our newest updates right on your inbox.</p>
-                            <form action="#">
+                            <form action="#" method="post" id="Subscribe">
                                 <input type="email" placeholder="Your email" required>
                                 <label for="agg">
                                     I agree to the terms & conditions
@@ -298,7 +352,77 @@
     </div>
 </footer>
 <!-- Footer Section End -->
+<!-- Search Begin -->
+<div class="container wow fadeInLeft" data-wow-delay="0.3s" style="display: none;">
+    <div id='nz-div'>
+      <h3 class="tde">
+        <span class="null">Search Food</span>
 
+      </h3>
+    </div>
+    <form role="form">
+      <div class="form-group">
+        <input type="input" class="form-control input-lg" id="txt-search" placeholder="Type your search character">
+      </div>
+    </form>
+    <div id="filter-records">
+      <div class="product-item">
+        <div class="product-img">
+          <div class="product-listall">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Search End -->
+
+  <!-- Product Section Begin -->
+  <section class="product2 spadd wow fadeInRight" data-wow-delay="0.3s" style="display: none;">
+    <div class="container ">
+      <div id='nz-div-4'>
+        <h3 class="tde ">
+          <span>Breakfast</span>
+        </h3>
+      </div>
+      <div class="product-list ">
+        <div class="row ">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="product2 spadd wow fadeInLeft" data-wow-delay="0.3s" style="display: none;">
+    <div class="container ">
+      <div id='nz-div-4'>
+        <h3 class="tde ">
+          <span>Lunch</span>
+        </h3>
+      </div>
+      <div class="product-list2 ">
+        <div class="row ">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="product2 spadd wow fadeInRight" data-wow-delay="0.3s" style="display: none;">
+    <div class="container ">
+      <div id='nz-div-4'>
+        <h3 class="tde ">
+          <span>Dinner</span>
+        </h3>
+      </div>
+      <div class="product-list3 ">
+        <div class="row ">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Product Section End -->
 <!-- Search Begin -->
 <div class="search-model">
     <div class="h-100 d-flex align-items-center justify-content-center">
@@ -316,15 +440,28 @@
         });
     </script>
     <!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/jquery.barfiller.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/main.js"></script>
+    <script src="js/jquery-3.3.1.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/jquery.nice-select.min.js "></script>
+    <script src="js/jquery.barfiller.js "></script>
+    <script src="js/jquery.magnific-popup.min.js "></script>
+    <script src="js/jquery.slicknav.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="js/jquery.nicescroll.min.js "></script>
+    <script src="js/main.js "></script>
+    <!-- JavaScript Libraries -->
+    <script src="lib/easing/easing.min.js "></script>
+    <script src="lib/wow/wow.min.js "></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js "></script>
+    <script src="lib/isotope/isotope.pkgd.min.js "></script>
+    <script src="lib/lightbox/js/lightbox.min.js "></script>
+    <script src="lib/waypoints/waypoints.min.js "></script>
+    <script src="lib/counterup/counterup.min.js "></script>
+    <script src="lib/slick/slick.min.js "></script>
+    <!-- Template Javascript -->
+    <script src="https://caythue247.com/js/main.js "></script>
+    <script src="js/app.js "></script>
+    <script src="js/search.js "></script>
 </body>
 
 </html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Food Shop</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/utillogin.css">
+	<link rel="stylesheet" type="text/css" href="css/mainlogin.css">
+<!--===============================================================================================-->
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<!-- Css Styles -->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/flaticon.css" type="text/css">
+<link rel="stylesheet" href="css/barfiller.css" type="text/css">
+<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+<link rel="stylesheet" href="css/nice-select.css" type="text/css">
+<link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+<link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<!-- <link rel="stylesheet" href="css/style2.css" type="text/css"> -->
+<!-- Css thêm -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
+<!-- <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">  -->
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+<link href="lib/slick/slick.css" rel="stylesheet">
+<link href="lib/slick/slick-theme.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Header Section Begin -->
+    <header class="header">
+        <!-- Nav Bar Start -->
+        <div class="nav-bar">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+              <a href="#" class="navbar-brand"></a>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="mobilecart">
+                <div class="cart">
+                  <button type="button" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count-info"></span>
+                  </button>
+                  <div class="cart-container">
+                    <div class="cart-list">
+                    </div>
+                    <div class="cart-total">
+                      <h3 style="color: black;">Total: $</h3>
+                      <span id="cart-total-value"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav mr-auto">
+                  <div class="logo-food">
+                    <img src="img/logo.png">
+                  </div>
+                  <a href="index.html" class="nav-item nav-link active">HOME</a>
+                  <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                  <a href="shop.html" class="nav-item nav-link">SHOP</a>
+                  <!-- <a href="portfolio.html" class="nav-item nav-link">Project</a> -->
+    
+                  <a href="blog.html" class="nav-item nav-link">Blog</a>
+                  <a href="./contact.html" class="nav-item nav-link">Contact</a>
+                  <a href="register.html" class="nav-item nav-link"><i class="fas fa-user"></i> Login / <i
+                      class="fas fa-user-plus"></i>Resigter</a>
+                </div>
+                <div class="ml-auto">
+                  <a class="btn" href="search.html"><i class="fas fa-search"></i>Search Food</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!-- Nav Bar End -->
+      </header>
+    <!-- Header Section End -->
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
+					<span class="login100-form-title-1">
+						Sign Up
+					</span>
+				</div>
+
+				<form class="login100-form validate-form" method="post" action="index.html" id="register">
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+						<span class="label-input100">Username</span>
+						<input class="input100" type="text" id="username" name="username" placeholder="Enter username" required>
+						<span class="focus-input100"></span>
+					</div>
+
+          <div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+						<span class="label-input100">Email</span>
+						<input class="input100" type="email" name="email" placeholder="youremail@..." required>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="password" name="pass" placeholder="Enter password" required>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="flex-sb-m w-full p-b-30">
+						<div>
+							<a href="login.html" class="txt1">
+								SIGN IN
+							</a>
+						</div>
+            <div>
+							<a href="#" class="txt1">
+								Forgot Password?
+							</a>
+						</div>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Section Begin -->
+    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer__widget">
+                        <h6>WORKING HOURS</h6>
+                        <ul>
+                            <li>Monday - Friday: 08:00 am – 08:30 pm</li>
+                            <li>Saturday: 10:00 am – 16:30 pm</li>
+                            <li>Sunday: 10:00 am – 16:30 pm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <h6>About US</h6>
+                        </div>
+                        <p>Website is made for the purpose of serving people who have little time to prepare their own meals.
+                            Website designed by FPT student group - APTECH - HCM
+                            Teacher: @Tainp
+                            Class: @ T1.2011.M0.</p>
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/canxivtp"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/canxivtp"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/canxivtp"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/canxivtp"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer__newslatter">
+                        <h6>Subscribe</h6>
+                        <p>Get latest updates and offers.</p>
+                        <form action="#" method="post" id="Subscribe">
+                            <input type="email" placeholder="Email" required>
+                            <button type="submit"><i class="fa fa-send-o"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<!-- Search Begin -->
+  <div class="container wow fadeInLeft" data-wow-delay="0.3s" style="display: none;">
+    <div id='nz-div'>
+      <h3 class="tde">
+        <span class="null">Search Food</span>
+
+      </h3>
+    </div>
+    <form role="form">
+      <div class="form-group">
+        <input type="input" class="form-control input-lg" id="txt-search" placeholder="Type your search character">
+      </div>
+    </form>
+    <div id="filter-records">
+      <div class="product-item">
+        <div class="product-img">
+          <div class="product-listall">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Search End -->
+
+  <!-- Product Section Begin -->
+  <section class="product2 spadd wow fadeInRight" data-wow-delay="0.3s" style="display: none;">
+    <div class="container ">
+      <div id='nz-div-4'>
+        <h3 class="tde ">
+          <span>Breakfast</span>
+        </h3>
+      </div>
+      <div class="product-list ">
+        <div class="row ">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="product2 spadd wow fadeInLeft" data-wow-delay="0.3s" style="display: none;">
+    <div class="container ">
+      <div id='nz-div-4'>
+        <h3 class="tde ">
+          <span>Lunch</span>
+        </h3>
+      </div>
+      <div class="product-list2 ">
+        <div class="row ">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="product2 spadd wow fadeInRight" data-wow-delay="0.3s" style="display: none;">
+    <div class="container ">
+      <div id='nz-div-4'>
+        <h3 class="tde ">
+          <span>Dinner</span>
+        </h3>
+      </div>
+      <div class="product-list3 ">
+        <div class="row ">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Product Section End -->
+
+  <script>
+    document.getElementById('register').addEventListener('submit', function(){
+        alert(('Welcome ') + document.getElementById('username').value + ' to GRUBKING')
+    });
+</script>
+<!-- Search Begin -->
+<div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>
+<!-- Search End -->
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/mainlogin.js"></script>
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js "></script>
+<script src="js/bootstrap.min.js "></script>
+<script src="js/jquery.nice-select.min.js "></script>
+<script src="js/jquery.barfiller.js "></script>
+<script src="js/jquery.magnific-popup.min.js "></script>
+<script src="js/jquery.slicknav.js "></script>
+<script src="js/owl.carousel.min.js "></script>
+<script src="js/jquery.nicescroll.min.js "></script>
+<script src="js/main.js "></script>
+<!-- JavaScript Libraries -->
+<script src="lib/easing/easing.min.js "></script>
+<script src="lib/wow/wow.min.js "></script>
+<script src="lib/owlcarousel/owl.carousel.min.js "></script>
+<script src="lib/isotope/isotope.pkgd.min.js "></script>
+<script src="lib/lightbox/js/lightbox.min.js "></script>
+<script src="lib/waypoints/waypoints.min.js "></script>
+<script src="lib/counterup/counterup.min.js "></script>
+<script src="lib/slick/slick.min.js "></script>
+<!-- Template Javascript -->
+<script src="https://caythue247.com/js/main.js "></script>
+<script src="js/app.js "></script>
+<script src="js/search.js "></script>
+</body>
+</html>

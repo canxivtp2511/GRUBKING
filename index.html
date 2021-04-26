@@ -44,55 +44,70 @@
     <header class="header">
         <!-- Nav Bar Start -->
         <div class="nav-bar">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                    <a href="#" class="navbar-brand">MENU</a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav mr-auto">
-                            <div class="logo-food">
-                                <img src="img/logo.png">
-                            </div>
-                            <a href="index.html" class="nav-item nav-link active">HOME</a>
-                            <a href="about.html" class="nav-item nav-link">ABOUT</a>
-                            <a href="shop.html" class="nav-item nav-link">SHOP</a>
-                            <!-- <a href="portfolio.html" class="nav-item nav-link">Project</a> -->
-                            
-                            <a href="blog.html" class="nav-item nav-link">Blog</a>
-                            <a href="account.html" class="nav-item nav-link"><i class="fas fa-user"></i> Login / <i class="fas fa-user-plus"></i>Resigter</a>
-                        </div>
-                        <div class="ml-auto">
-                            <a class="btn" href="./contact.html">Contact</a>
-                        </div>
-                        <div class="cart">
-                            <button type="button" id="cart-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                                <span id="cart-count-info"></span>
-                            </button>
-                            <div class="cart-container">
-                                <div class="cart-list">
-
-                                </div>
-
-                                <div class="cart-total">
-                                    <h3 style="color: black;">Total: $</h3>
-                                    <span id="cart-total-value"></span>
-                                </div>
-                            </div>
-                        </div>
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+              <a href="#" class="navbar-brand"></a>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="mobilecart">
+                <div class="cart">
+                  <button type="button" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count-info"></span>
+                  </button>
+                  <div class="cart-container">
+                    <div class="cart-list">
                     </div>
-                </nav>
-            </div>
+                    <div class="cart-total">
+                      <h3 style="color: black;">Total: $</h3>
+                      <span id="cart-total-value"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav mr-auto">
+                  <div class="logo-food">
+                    <img src="img/logo.png">
+                  </div>
+                  <a href="index.html" class="nav-item nav-link active">HOME</a>
+                  <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                  <a href="shop.html" class="nav-item nav-link">SHOP</a>
+                  <!-- <a href="portfolio.html" class="nav-item nav-link">Project</a> -->
+    
+                  <a href="blog.html" class="nav-item nav-link">Blog</a>
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+                  <a href="register.html" class="nav-item nav-link"><i class="fas fa-user"></i> Login / <i
+                      class="fas fa-user-plus"></i>Resigter</a>
+                </div>
+                <div class="ml-auto">
+                  <a class="btn" href="search.html"><i class="fas fa-search"></i>Search Food</a>
+                </div>
+                <!-- <div class="cart">
+                  <button type="button" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count-info"></span>
+                  </button>
+                  <div class="cart-container">
+                    <div class="cart-list">
+                    </div>
+                    <div class="cart-total">
+                      <h3 style="color: black;">Total: $</h3>
+                      <span id="cart-total-value"></span>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </nav>
+          </div>
         </div>
         <!-- Nav Bar End -->
-    </header>
+      </header>
     <!-- Header Section End -->
 
     <!-- slide show -->
-    <section class="hero" data-wow-delay="1.3s">
+    <section class="hero">
         <div class="hero__slider owl-carousel">
             <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
                 <div class="container">
@@ -133,7 +148,7 @@
     <!-- slide show End -->
 
     <!-- About Section Begin -->
-    <section class="about spad" data-wow-delay="1.3s">
+    <section class="about spad wow fadeInRight" data-wow-delay="0.3s">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -177,7 +192,7 @@
     <!-- About Section End -->
 
     <!-- Categories Section Begin -->
-    <div class="categories" data-wow-delay="1.3s">
+    <div class="categories wow fadeInRight" data-wow-delay="0.3s">
         <div class="container">
             <div id='nz-div'>
                 <h3 class="tde">
@@ -231,7 +246,7 @@
     <!-- Categories Section End -->
 
     <!-- Search Begin -->
-    <div class="container">
+    <div class="container wow fadeInLeft" data-wow-delay="0.3s" style="display: none;">
         <div id='nz-div'>
             <h3 class="tde">
                 <span class="null">Search Food</span>
@@ -258,7 +273,7 @@
     <!-- Search End -->
 
     <!-- Product Section Begin -->
-    <section class="product2 spadd " data-wow-delay="1.3s ">
+    <section class="product2 spadd wow fadeInRight" data-wow-delay="0.3s">
         <div class="container ">
             <div id='nz-div-4'>
                 <h3 class="tde ">
@@ -273,7 +288,7 @@
         </div>
     </section>
 
-    <section class="product2 spadd " data-wow-delay="1.3s ">
+    <section class="product2 spadd wow fadeInLeft" data-wow-delay="0.3s">
         <div class="container ">
             <div id='nz-div-4'>
                 <h3 class="tde ">
@@ -288,7 +303,7 @@
         </div>
     </section>
 
-    <section class="product2 spadd " data-wow-delay="1.3s ">
+    <section class="product2 spadd wow fadeInRight" data-wow-delay="0.3s">
         <div class="container ">
             <div id='nz-div-4'>
                 <h3 class="tde ">
@@ -304,7 +319,7 @@
     <!-- Product Section End -->
 
     <!-- Class Section Begin -->
-    <section class="class spad ">
+    <section class="class spad wow fadeInUp" data-wow-delay="0.3s">
         <div class="container ">
             <div class="row ">
                 <div class="col-lg-6 ">
@@ -357,7 +372,7 @@
     <!-- Class Section End -->
 
     <!-- Team Section Begin -->
-   <section class="team spad ">
+   <section class="team spad wow fadeInUp" data-wow-delay="0.3s">
     <div class="container ">
         <div class="row ">
             <div class="col-lg-7 col-md-7 col-sm-7 ">
@@ -463,7 +478,7 @@
 <!-- Team Section End -->
 
     <!-- Testimonial Section Begin -->
-    <section class="testimonial spad ">
+    <section class="testimonial spad wow fadeInLeft" data-wow-delay="0.3s">
         <div class="container ">
             <div class="row ">
                 <div class="col-lg-12 text-center ">
@@ -608,7 +623,7 @@
     <!-- Testimonial Section End -->
 
     <!-- Instagram Section Begin -->
-    <section class="instagram spad ">
+    <section class="instagram spad wow fadeInRight" data-wow-delay="0.3s">
         <div class="container ">
             <div class="row ">
                 <div class="col-lg-4 p-0 ">
