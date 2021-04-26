@@ -20,7 +20,7 @@ Project title: Cloud Kitchen
                           
 ============================
 
-TechWiz documentation at UPDATING
+TechWiz documentation at https://github.com/canxivtp2511/GRUBKING/tree/main/review
 
 ============================
 
