@@ -2,15 +2,16 @@
     {
         "name" : "COM TAM",
         "category" : "12:00 - 14:30 PM",
-        "price" : "50.00",
+        "price" : "1.06",
         "imgSrc" : "img/instagram/comtam.jpg",
         "link" : "comtamsuon.html",
         "ms": "a"
+        
     },
     {
         "name" : "SUSHI",
         "category" : "12:00 - 14:30 PM",
-        "price" : "200.50",
+        "price" : "1.09",
         "imgSrc" : "img/instagram/shushi.jpg",
         "link" : "sushi.html",
         "ms": "a"
@@ -18,7 +19,7 @@
     {
         "name" : "COM CHIEN HAI SAN",
         "category" : "12:00 - 14:30 PM",
-        "price" : "5.50",
+        "price" : "1.10",
         "imgSrc" : "img/instagram/comchienhaisan.jpg",
         "link" : "comchienhaisan.html",
         "ms": "a"
@@ -26,7 +27,7 @@
     {
         "name" : "CANH CU SEN",
         "category" : "12:00 - 14:30 PM",
-        "price" : "5.50",
+        "price" : "1.15",
         "imgSrc" : "img/instagram/canhcusen.jpg",
         "link" : "canhsen.html",
         "ms": "a"
